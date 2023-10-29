@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta lang="en">
+  <link rel="stylesheet" href="styles.css"></link>
+</head>
+<div class="container">
+<body>
+  <header>
+  <h1 id="title">Would you travel to outer space?</h1>
+  <p id="description">Give us your opinion on what you think interspace travel would be like</p>
+  </header>
+  <form id="survey-form">
+  <div class="form-group">
+  <label id="name-label" for="name">Name<input type="text" id="name" required placeholder="Enter your name"></input></label></div>
+  <div class="form-group"><label id="email-label" for="email">Email<input type="email" id="email" required placeholder="Enter your Email"></input></label></div>
+  <div class="form-group"><label id="number-label" for="number">Age <span class="text-explanation">(optional)</span><input type="number" id="number" min="13" max="120" placeholder="Age"></input></label></div>
+  <div class="form-group">
+    <p>What motivates you to discover another space?</p>
+    <select id="dropdown">
+    <option>Choose your motivation</option>
+    <option>Discover another avanved civilization</option>
+    <option>Participate of a galaxy battle</option>
+    <option>Escape for our planet</option>
+  </select></div>
+  <div class="form-group">
+    <p>You belive in life in another galaxy?</p>
+    <input type="radio" name="radio-select" value="yes">Yes</input>
+  <input type="radio" name="radio-select" value="no">No, this is stupid.</input></div>
+  <div class="form-group">
+    <p>If you could choose, which breed would id be? <span class="text-explanation">(Check all that apply)</span></p>
+  <label for="human-label"><input type="checkbox" value="Human" id="human-label">Human</input></label>
+  <label for="alien-label"><input type="checkbox" value="Alien" id="alien-label">Alien</input></label>
+  <label for="dinosaur-label"><input type="checkbox" value="Dinosaur" id="dinosaur-label">Dinosaur</input><label>
+  <label for ="cat-label"><input type="checkbox" value="Cat" id="cat-label">Cat, without a doubt I would be a cat</input></label>
+  <label for="dog-label"><input type="checkbox" value="Dog" id="dog-label">Dog</input></label></div>
+  
+  <div class="form-group">
+   <p>Tell me more about what you would do on an interspatial journey</p>
+  <textarea type="textarea"></textarea>
+  </div>
+  <div class="form-group"><button id="submit">Submit</button></div>
+  </form>
+</body>
+</div>
+</html>

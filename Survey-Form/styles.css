@@ -1,0 +1,74 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: arial;
+    color: #fff
+  }
+  
+  .container {
+    background: linear-gradient(115deg, rgba(0, 0, 50, 0.1), rgba(0, 0, 127, 0.1)), url("https://i0.pickpik.com/photos/719/149/146/astronaut-astronomy-satellite-moon-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+  }
+  
+  header {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 15px 5px 0px 0px
+  }
+  
+  #title{
+   font-family: impact;
+  }
+  
+  #description{
+    font-style: italic;
+    max-width: 400px;
+    margin: 0 auto 10px auto;
+  
+  }
+  
+  form {
+    background-color: rgba(0, 0, 0,  0.7);
+    padding: 30px 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 1em;
+  }
+  
+  label{
+    display: block;
+  }
+  
+  .form-group{
+    width:100%;
+    margin: 20px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="number"], select, textarea{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  select {
+    color: grey
+  }
+  
+  button {
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1em;
+    background-color: rgba(150, 150, 200);
+    color: #fff;
+    
+  }
+  
+  .text-explanation{
+    font-style: italic;
+    font-size:0.8em
+  }
+  
